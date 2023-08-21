@@ -1,0 +1,29 @@
+.container {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.image {
+  width: 100%;
+  margin-top: 10px;
+  box-shadow: 0px 15px 100px -35px #01a298;
+}
+.button {
+  color: white;
+  font-weight: 700;
+  font-size: 13px;
+  background-color: #00a398;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 45px -12px #01a298;
+}
+.button:hover {
+  background-color: #01a298;
+  box-shadow: 0px 15px 45px -12px #01a298;
+}
